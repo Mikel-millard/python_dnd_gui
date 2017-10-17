@@ -62,7 +62,6 @@ class GUI(QWidget):
 
         self.submit_btn = QPushButton("Submit", self.w)
 
-
         self.layout.addWidget(self.name_label, 1, 0)
         self.layout.addWidget(self.name, 1, 1)
         self.layout.addWidget(self.sex_label, 2, 0)
